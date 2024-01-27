@@ -1,0 +1,165 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=63;
+	taxlabels
+	Le_aure_IGA107-1[&!name="Le_aure_IGA107-1"]
+	Le_brev_IGA163-1
+	Le_crys_SS140
+	Le_nutt_IGA159-1[&!name="Le_nutt_IGA159-1"]
+	Li_aren_Andre24385
+	Li_aren_Andre29751
+	Li_aren_IGA139-9
+	Li_bell_IGA110-3
+	Li_bell_IGA113-4
+	Li_bell_Thorne60487
+	Li_bern_Bell2352
+	Li_bern_IGA124-2
+	Li_bige_DeGroot4917
+	Li_bige_DeGroot5748
+	Li_bige_Porter11811[&!color=#050505]
+	Li_caes_Baker17406
+	Li_caes_Baker17423
+	Li_cali_IGA146-2[&!name="Li_pung_IGA146_2",!color=#050505]
+	Li_cali_IGA172-4[&!name="Li_pung_IGA172-4",!color=#050505]
+	Li_cali_Wilken16226[&!name="Li_cali_Wilken16226"]
+	Li_camp_Andre36837
+	Li_camp_IGA154-8
+	Li_camp_IGA156-7
+	Li_conc_Soza1650
+	Li_conc_Soza1692
+	Li_demi_Baker13968
+	Li_demi_IGA147-11
+	Li_demi_Spellenberg13163
+	Li_dian_IGA120-4
+	Li_dian_JunakSC-2312
+	Li_dian_JunakSCA-1792
+	Li_dian_Vanderplank050318-31
+	Li_dich_Daniel2691[&!color=#050505]
+	Li_dich_IGA116-10
+	Li_dich_Thorne60603
+	Li_dich_Wilvert160
+	Li_fili_Boyd2173
+	Li_fili_IGA128-4
+	Li_fili_IGA148-9
+	Li_glab_Rosentreter149
+	Li_inyo_IGA143-8
+	Li_inyo_Tiehm16554
+	Li_jaeg_FZ574
+	Li_jaeg_WestSN[&!name="Li_jaeg_WestSN",!color=#050505]
+	Li_jone_IGA140-4
+	Li_jone_Porter14247[&!color=#050505]
+	Li_jone_Reina2003-180
+	Li_kill_IGA144-13
+	Li_kill_IGA160-3
+	Li_macu_IGA103-1
+	Li_macu_IGA115-10
+	Li_orcu_IGA164-2
+	Li_orcu_Moran25719
+	Li_parr_Hardham5364
+	Li_parr_IGA131-12
+	Li_parr_IGA141-13
+	Li_pung_Charlton2135
+	Li_pung_Fraga815
+	Li_veat_Moran10684[&!color=#050505]
+	Li_veat_Rebman2421[&!color=#050505]
+	Li_visc_Rebman1550[&!name="Li_visc_Rebman1550"]
+	Li_wats_Goodrich12930
+	Li_wats_Henderson6177
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (Le_aure_IGA107-1:1.0,((Le_brev_IGA163-1:1.0,Le_crys_SS140:1.0)[&label=1]:0.534009,(Le_nutt_IGA159-1:1.0,((Li_inyo_IGA143-8:1.0,Li_inyo_Tiehm16554:1.0)[&label=1]:2.757865,(((Li_camp_Andre36837:1.0,(Li_camp_IGA154-8:1.0,Li_camp_IGA156-7:1.0)[&label=0.97]:0.12835)[&label=1]:2.348479,(Li_fili_IGA148-9:1.0,(Li_fili_Boyd2173:1.0,Li_fili_IGA128-4:1.0)[&label=1]:0.209039)[&label=1]:3.12449)[&label=1]:0.918335,((Li_macu_IGA103-1:1.0,Li_macu_IGA115-10:1.0)[&label=1]:2.590422,(((Li_wats_Goodrich12930:1.0,(Li_glab_Rosentreter149:1.0,(Li_wats_Henderson6177:1.0,(Li_caes_Baker17406:1.0,Li_caes_Baker17423:1.0)[&label=1]:0.336745)[&label=1]:0.353499)[&label=0.69]:0.05343)[&label=1]:0.679458,((Li_demi_IGA147-11:1.0,(Li_demi_Baker13968:1.0,Li_demi_Spellenberg13163:1.0)[&label=0.97]:0.125718)[&label=1]:2.239138,(((Li_orcu_IGA164-2:1.0,Li_orcu_Moran25719:1.0)[&label=1]:1.050551,(Li_bell_Thorne60487:1.0,(Li_bell_IGA110-3:1.0,Li_bell_IGA113-4:1.0)[&label=1]:0.420282)[&label=1]:0.826443)[&label=1]:0.384864,(((Li_jaeg_WestSN:1.0,(Li_veat_Moran10684:1.0,Li_veat_Rebman2421:1.0)[&label=1]:2.238757)[&label=1]:0.61139,(Li_cali_Wilken16226:1.0,(Li_pung_Fraga815:1.0,(Li_jaeg_FZ574:1.0,(Li_cali_IGA172-4:1.0,(Li_cali_IGA146-2:1.0,Li_pung_Charlton2135:1.0)[&label=0.42]:0.011813)[&label=0.52]:0.04384)[&label=0.45]:0.016827)[&label=1]:0.368451)[&label=1]:0.835221)[&label=1]:0.395546,(((Li_bern_Bell2352:1.0,Li_bern_IGA124-2:1.0)[&label=0.74]:0.057109,(Li_kill_IGA160-3:1.0,Li_kill_IGA144-13:1.0)[&label=0.83]:0.075134)[&label=1]:1.786225,((Li_parr_Hardham5364:1.0,(Li_parr_IGA131-12:1.0,Li_parr_IGA141-13:1.0)[&label=1]:0.558137)[&label=1]:0.465022,((Li_aren_IGA139-9:1.0,(Li_aren_Andre24385:1.0,Li_aren_Andre29751:1.0)[&label=1]:0.225989)[&label=1]:3.254653,((Li_dich_Thorne60603:1.0,(Li_dich_IGA116-10:1.0,Li_dich_Wilvert160:1.0)[&label=1]:0.313622)[&label=1]:0.254755,(Li_visc_Rebman1550:1.0,(Li_bige_Porter11811:1.0,((Li_bige_DeGroot4917:1.0,(Li_bige_DeGroot5748:1.0,Li_jone_Porter14247:1.0)[&label=0.79]:0.065509)[&label=1]:0.321268,(Li_jone_IGA140-4:1.0,(Li_dich_Daniel2691:1.0,Li_jone_Reina2003-180:1.0)[&label=0.69]:0.050098)[&label=1]:0.782806)[&label=0.94]:0.268384)[&label=0.96]:0.2483)[&label=1]:0.316304)[&label=1]:0.643012)[&label=1]:0.208411)[&label=0.65]:0.060715)[&label=0.49]:0.031934)[&label=0.55]:0.03085)[&label=0.54]:0.06289)[&label=0.55]:0.046861)[&label=1]:0.251372,((Li_conc_Soza1650:1.0,Li_conc_Soza1692:1.0)[&label=1]:2.000706,(Li_dian_IGA120-4:1.0,((Li_dian_JunakSCA-1792:1.0,Li_dian_JunakSC-2312:1.0)[&label=1]:0.436041,Li_dian_Vanderplank050318-31:1.0)[&label=1]:0.412686)[&label=1]:1.259722)[&label=1]:0.223341)[&label=0.94]:0.120972)[&label=1]:2.05016)[&label=1]:0.563022)[&label=1]:3.610679)[&label=1]:0.287528):0.0);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=366;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="label";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="decreasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
